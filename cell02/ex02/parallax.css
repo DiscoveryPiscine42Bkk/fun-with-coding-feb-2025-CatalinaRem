@@ -1,8 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: Comic Sans, Comic Sans MS, cursive;
+    margin: 0;
+    padding: 0;
 }
 
 .parallax {
@@ -22,9 +22,9 @@
 }
 
 .content {
-    padding: 50px;
     text-align: center;
     background: orange;
+    padding: 50px;
 }
 
 .content h2 {

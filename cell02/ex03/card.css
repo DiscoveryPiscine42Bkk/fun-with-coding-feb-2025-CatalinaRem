@@ -33,7 +33,7 @@ body {
     margin: 10px 0;
 }
 
-.username {
+.name {
     font-weight: bold;
     margin: 5px 0;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 .social-icons {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .social-icons img {
@@ -54,7 +54,7 @@ body {
 }
 
 
-.contact-btn {
+.contact-botton {
     background-color: #000;
     color: white;
     padding: 0px;
@@ -68,12 +68,12 @@ body {
     font-size: 16px;
     font-weight: bold;
     transition: background 0.3s;
-    display: flex;              /* ใช้ flexbox */
-    justify-content: center;    /* จัดข้อความให้ตรงกลางในแนวนอน */
-    align-items: center;        /* จัดข้อความให้ตรงกลางในแนวตั้ง */
-    height: 30px;               /* เพิ่มความสูงของปุ่ม */
+    display: flex;              
+    justify-content: center;    /* แนวนอน */
+    align-items: center;        /* แนวตั้ง */
+    height: 30px;               /* ความสูงของปุ่ม */
 }
 
-.contact-btn:hover {
+.contact-boton:hover {
     background-color: #000;
 }
