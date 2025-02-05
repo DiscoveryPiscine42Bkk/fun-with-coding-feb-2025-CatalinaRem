@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+.parallax {
+    height: 100vh;
+    background-image: url('https://www.matichon.co.th/wp-content/uploads/2025/01/2E0AF10A-1C80-4502-B67B-FC8CEE43D0E7.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.content {
+    padding: 50px;
+    text-align: center;
+    background: orange;
+}
+
+.content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
