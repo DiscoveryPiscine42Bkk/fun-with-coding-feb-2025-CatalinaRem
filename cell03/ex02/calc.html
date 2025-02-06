@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+
+    <h2>Basic Calculator</h2>
+
+    <input type="number" id="leftOperand" min="0" placeholder="Enter number" required>
+    
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+
+    <input type="number" id="rightOperand" min="0" placeholder="Enter number" required>
+
+    <button onclick="calculate()">Try me!</button>
+
+    <script src="calc.js">
+    </script>
+
+</body>
+</html>

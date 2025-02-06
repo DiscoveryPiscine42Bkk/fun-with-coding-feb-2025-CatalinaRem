@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* กำหนดให้ข้อความอื่นๆ อยู่กลาง */
+    margin: 60px;
+}
+
+h2 {
+    text-align: left; /* ปรับหัวข้อให้ชิดด้านซ้าย */
+    width: 100%; /* ให้หัวข้อเต็มความกว้าง */
+    padding-left: 20px; /* เพิ่มระยะห่างจากซ้าย */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 500px; /* ปรับระยะห่างระหว่างกล่องคำนวณและปุ่ม */
+    max-width: 400px; /* ปรับความกว้างของกล่องเครื่องคิดเลข */
+    margin: auto;
+    padding: 30px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 35px; /* ปรับระยะห่างระหว่าง input, select และผลลัพธ์ */
+}
+
+input, select, #result {
+    padding: 8px;
+    font-size: 16px;
+    width: 100px; /* ปรับความกว้างของ input และ select */
+    height: 20px; /* ปรับความสูงของ input และ select */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#result {
+    font-weight: bold;
+    background-color: #e0e0e0;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px; /* ปรับความกว้างและความสูงของปุ่ม */
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
