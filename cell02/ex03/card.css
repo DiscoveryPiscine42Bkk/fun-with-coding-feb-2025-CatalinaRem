@@ -4,14 +4,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: wheat;
     margin: 0;
 }
 
 .profile-card {
-    background: white;
+   background: white; 
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 300px;
     display: flex;
@@ -22,7 +22,7 @@ body {
 
 .profile-content {
     padding: 20px;
-    flex: 1;
+    flex: 0;
 }
 
 .profile-pic {
@@ -30,12 +30,12 @@ body {
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 10px 0;
+    margin: 10px;
 }
 
 .name {
     font-weight: bold;
-    margin: 5px 0;
+    margin: 5px;
 }
 
 .description {
@@ -48,13 +48,8 @@ body {
     color: white;
     text-align: center;
     width: 100%;
-    bottom: 0;
-    left: 0;
     cursor: pointer;
     display: flex; 
-    height: 10px;
-    bottom: 0;
-    left: 0;
     font-size: 16px;
     justify-content: center;
     align-items: center;
@@ -62,7 +57,7 @@ body {
 }
 
 .social-icons {
-    margin: 5px 0;
+    margin: 5px;
 }
 
 .social-icons img {
@@ -87,11 +82,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     display: flex;              
-    justify-content: center;    /* แนวนอน */
-    align-items: center;        /* แนวตั้ง */
-    height: 30px;               /* ความสูงของปุ่ม */
-}
-
-.contact-boton:hover {
-    background-color: #000;
+    justify-content: center; 
+    align-items: center;        
+    height: 30px;              
 }
